@@ -1,0 +1,378 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Coffee Inc. (Awesome)</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="cleartype" content="on">
+
+    <!-- iPhone -->
+    <link href="http://lungo.tapquo.com/resources/icon-57.png" sizes="57x57" rel="apple-touch-icon">
+    <link href="http://lungo.tapquo.com/resources/startup-image-320x460.png" media="(device-width: 320px) and (device-height: 480px)
+             and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+
+    <!-- iPhone (Retina) -->
+    <link href="http://lungo.tapquo.com/resources/icon-114.png" sizes="114x114" rel="apple-touch-icon">
+    <link href="http://lungo.tapquo.com/resources/startup-image-640x920.png" media="(device-width: 320px) and (device-height: 480px)
+             and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+
+    <!-- iPhone 5 -->
+    <link href="http://lungo.tapquo.com/resources/startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px)
+             and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+
+    <!-- iPad -->
+    <link href="http://lungo.tapquo.com/resources/icon-72.png" sizes="72x72" rel="apple-touch-icon">
+    <link href="http://lungo.tapquo.com/resources/startup-image-768x1004.png" media="(device-width: 768px) and (device-height: 1024px)
+             and (orientation: portrait)
+             and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+    <link href="http://lungo.tapquo.com/resources/startup-image-748x1024.png" media="(device-width: 768px) and (device-height: 1024px)
+             and (orientation: landscape)
+             and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+
+    <!-- iPad (Retina) -->
+    <link href="http://lungo.tapquo.com/resources/icon-144.png" sizes="144x144" rel="apple-touch-icon">
+    <link href="http://lungo.tapquo.com/resources/startup-image-1536x2008.png" media="(device-width: 768px) and (device-height: 1024px)
+             and (orientation: portrait)
+             and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+    <link href="http://lungo.tapquo.com/resources/startup-image-1496x2048.png" media="(device-width: 768px) and (device-height: 1024px)
+             and (orientation: landscape)
+             and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+
+    <!-- Lungo - Stylesheets -->
+<!--    
+    <link rel="stylesheet" href="components/lungo/lungo.css">
+-->    
+    <link rel="stylesheet" href="components/lungo/lungo.icon.css">
+    <link rel="stylesheet" href="components/lungo/lungo.icon.brand.css">
+    <link rel="stylesheet" href="components/lungo/lungo.theme.default.css">
+    <link rel="stylesheet" href="extra.css">
+    <link rel="stylesheet" href="combined.css">
+</head>
+
+<body class="app">
+
+
+
+
+<!--//////////// SIGNUP ////////////-->
+    <section id="signup" data-transition="slide">
+        
+        <article class="list">      	
+        	<form class="margined">
+        	  <img src="game-logo.svg" class="gamelogo">        	  
+            <div class="menu-elements">
+              <input type="text" placeholder="Username"/>                          
+              <input type="password" value="value" enabled/>                       
+              <input type="password" value="value" enabled/>                 
+            	<a href="#main-view" onclick="signup()" data-router="section" class="button" id="signup">Log In</a>
+            </div>
+		    </form>
+        </article>  
+     
+    </section>
+<!-- /////////// END /////////// -->
+<!--//////////// SIGNUP ////////////-->
+
+
+
+<!--//////////// LOGIN ////////////-->
+    <section id="login" data-transition="slide">
+        
+        <article class="list">      	
+        	<form class="margined">
+        	  <img src="game-logo.svg" class="gamelogo">        	  
+            <div class="menu-elements">
+              <!--<label>Username</label>-->
+              <input type="text" placeholder="Username"/>                          
+              <!--<label>Password</label>-->
+              <input type="password" value="value" enabled/>                        
+            	<a href="#main-view" data-router="section" class="button">Log In</a>
+            </div>
+		    </form>
+        </article>  
+     
+    </section>
+<!-- /////////// END /////////// -->
+<!--//////////// LOGIN ////////////-->
+
+
+<!--//////////// MAIN MENU ////////////-->
+    <section id="menu" data-transition="slide">
+        
+        <article id="main-article" class="list">      	
+        	<form class="margined">
+        	  <img src="game-logo.svg" class="gamelogo">  
+        	  <div class="menu-elements">      	  
+              <a href="#main-view" data-router="section" class="button">Resume</a>           
+            	<a href="#login" data-router="section" class="button">Log Out</a>
+            </div>
+		    </form>
+        </article>  
+
+    </section>
+<!-- /////////// END /////////// -->
+<!--//////////// MAIN MENU ////////////-->
+
+
+
+
+<!--//////////// MAIN VIEW ////////////-->
+<!--//////////// Employees, Investors, Main Menu with bottom bar ////////////-->
+    <section id="main-view" data-transition="slide">
+      
+         <header  class="">            
+            <div data-icon="home" class="statusbar-item">       99</div>
+            <div data-icon="users" class="statusbar-item">       58</div>
+            <div data-icon="upload" class="statusbar-item">       43</div>
+            <div data-icon="map" class="statusbar-item">       33</div>
+            <div data-icon="cloud" class="statusbar-item">       34</div>
+            <div data-icon="menu" class="statusbar-item">       51,234</div>
+                                    
+            </div>
+        </header>
+   
+        
+<!--------------- Grid of Employees --------------->
+        <article id="employees" class="employee-grid">
+                                    
+            <div class="three columns">
+              <div class="three rows">
+                <a href="#employee-profile" data-router="section"><img src="emp_1.png"></a>
+              </div>
+            	<div class="three rows">
+                <a href="#employee" data-router="section"><img src="emp_2.png"></a>
+              </div>
+              <div class="three rows">
+                <a href="#employee-profile" data-router="section"><img src="emp_1.png"></a>
+              </div>
+            </div>
+          
+
+            <div class="three columns">
+              <div class="three rows">
+                <a href="#employee-profile" data-router="section"><img src="emp_2.png"></a>
+              </div>
+              <div class="three rows">
+                <a href="#employee-profile" data-router="section"><img src="emp_3.png"></a>
+              </div>
+              <div class="three rows">
+                <a href="#employee-profile" data-router="section"><img src="emp_3.png"></a>
+              </div>
+            </div>
+            
+            <div class="three columns">
+              <div class="three rows">
+                <a href="#employee-profile" data-router="section"><img src="emp_3.png"></a>
+              </div>
+              <div class="three rows">
+                <a href="#employee-profile" data-router="section"><img src="emp_1.png"></a>
+              </div>
+              <div class="three rows">
+                <a href="#employee-hire" data-router="section"><img src="emp_2.png"></a>
+              </div>
+            </div>
+
+            <div class="one column"></div>          
+                                                
+        </article>
+<!--------------- END --------------->        
+<!--------------- Grid of Employees --------------->
+        
+        
+                
+<!--------------- Grid of Investors --------------->
+        <article id="investors" class="employee-grid">
+                                    
+            <div class="three columns">
+              <div class="three rows">
+                <a href="#employee-profile" data-router="section"><img src="inv_1.png"></a>
+              </div>
+            	<div class="three rows">
+                <a href="#employee-profile" data-router="section"><img src="inv_2.png"></a>
+              </div>
+              <div class="three rows">
+                <a href="#employee-profile" data-router="section"><img src="inv_1.png"></a>
+              </div>
+            </div>
+          
+
+            <div class="three columns">
+              <div class="three rows">
+                <a href="#employee-profile" data-router="section"><img src="inv_2.png"></a>
+              </div>
+              <div class="three rows">
+                <a href="#employee-profile" data-router="section"><img src="inv_3.png"></a>
+              </div>
+              <div class="three rows">
+                <a href="#employee-profile" data-router="section"><img src="inv_3.png"></a>
+              </div>
+            </div>
+            
+            <div class="three columns">
+              <div class="three rows">
+                <a href="#employee-profile" data-router="section"><img src="inv_3.png"></a>
+              </div>
+              <div class="three rows">
+                <a href="#employee-profile" data-router="section"><img src="inv_1.png"></a>
+              </div>
+              <div class="three rows">
+                <a href="#employee-profile" data-router="section"><img src="inv_2.png"></a>
+              </div>
+            </div>
+
+            <div class="one column"></div>          
+                                                
+        </article>
+<!--------------- END --------------->        
+<!--------------- Grid of Investors --------------->
+        
+        
+<!--------------- Menu with bottom bar --------------->        
+        <article id="menu-ingame" class="list">      	
+        	<form class="margined">
+        	  <img src="game-logo.svg" class="gamelogo">  
+        	  <div class="menu-elements">      	  
+              <a href="#employees" data-router="article" class="button">Resume</a>           
+            	<a href="#login" data-router="section" class="button">Log Out</a>
+            </div>
+		    </form>
+        </article>
+        
+<!--------------- END --------------->                
+<!--------------- Menu with bottom bar --------------->      
+        
+        
+                
+	    <footer>
+	      <nav>
+	          <a href="#employees" data-router="article" class="current" data-icon="user"></a>
+            <a href="#investors" data-router="article" data-icon="inbox"></a>
+            <a href="#menu-ingame" data-router="article" data-icon="settings"></a>
+        </nav>
+	    </footer>
+
+
+    </section>
+<!-- /////////// END /////////// -->
+<!--//////////// MAIN VIEW ////////////-->
+
+
+
+<!--//////////// EMPLOYEE PROFILE ////////////-->    
+    
+    <section id="employee-profile" data-transition="slide">
+		<header data-title="John Doe">
+		    <nav class="left box">
+		        <a href="#back" data-router="section" data-icon="left"></a>
+		    </nav>
+		    <nav class="right box">
+		        <a href="#back" data-router="section" data-icon="close" data-label="Fire"></a>
+		    </nav>
+		</header>
+		
+		
+		<article class="scroll">
+		    <form class="margined">
+		        	
+		        <img src="ep2_big.svg" id="employee-pic">
+		        		        
+		        <label>Skill:   45</label>
+		        <div id="progress-normal" data-progress="45%"></div>
+		        
+		        <label>Satisfaction:   73</label>
+		        <div id="progress-normal" data-progress="73%"></div>
+
+		        <label>Salary:   567</label>
+		        <input type="range" placeholder="type your name" />
+
+		    </form>
+
+		</article>
+	</section>
+<!-- /////////// END /////////// -->
+<!--//////////// EMPLOYEE PROFILE ////////////-->
+
+
+<!--//////////// HIRE EMPLOYEES ////////////-->    
+    
+    <section id="employee-hire" data-transition="slide">
+		<header data-title="Hire New Employees">
+		    <nav class="left box">
+		        <a href="#back" data-router="section" data-icon="left"></a>
+		    </nav>
+		</header>
+		
+		
+		<article class="scroll">
+		    
+		    <div class="four rows">
+		    	
+		    	<div class="five columns">
+		    		<img src="ep2_big.svg" id="employee-hire-pic">
+		    	</div>		    			    
+		    	<div class="five columns">
+		    		<img src="ep2_big.svg" id="employee-hire-pic">
+		    	</div>
+		    	
+		    	<div class="five columns">
+		    		<img src="ep2_big.svg" id="employee-hire-pic">
+		    	</div>		    			    
+		    	<div class="five columns">
+		    		<img src="ep2_big.svg" id="employee-hire-pic">
+		    	</div>
+
+		    
+		    </div>
+		    
+		</article>
+	</section>
+<!-- /////////// END /////////// -->
+<!--//////////// HIRE EMPLOYEES ////////////-->
+
+
+
+
+  
+
+<!--
+    <aside id="features">
+        <header data-title="Options"></header>
+        <article class="list">
+            <ul>
+                <li class="current">
+                    <a href="#main-article" data-router="article">
+                        <strong>Main Article</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="#second-article" data-router="article">
+                        <strong>Second Article</strong>
+                    </a>
+                </li>
+            </ul>
+        </article>
+    </aside>
+-->
+
+
+
+    <!-- Lungo - Dependencies -->
+    <script src="components/quojs/quo.js"></script>
+    <script src="components/lungo/lungo.js"></script>
+    
+    <script src="parse.js"></script>        
+    <script src="coffeeinc.js"></script>
+    <!-- Lungo - Sandbox App -->
+    <script>
+        Lungo.init({
+            name: 'prueba'
+        });
+    </script>
+</body>
+</html>
