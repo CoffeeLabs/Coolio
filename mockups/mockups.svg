@@ -250,8 +250,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.70710678"
-     inkscape:cx="4616.5832"
-     inkscape:cy="-3052.4034"
+     inkscape:cx="4336.0508"
+     inkscape:cy="-2836.7609"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -41337,7 +41337,7 @@
          style="fill:#7c7262;fill-opacity:1;stroke:#000000;stroke-width:3" />
     </g>
     <rect
-       style="fill:#7c7262;fill-opacity:1;stroke:#000000;stroke-width:2"
+       style="fill:#9f9585;fill-opacity:1;stroke:#000000;stroke-width:2"
        id="rect9785"
        width="140"
        height="100"
@@ -41975,7 +41975,7 @@
          y="3197.3684"
          x="7012.2729"
          id="tspan9633"
-         sodipodi:role="line">Johnathan Derpson</tspan></text>
+         sodipodi:role="line">Johnathan Longname</tspan></text>
     <g
        style="fill:#4d3321;fill-opacity:1"
        id="g10790"
@@ -42410,7 +42410,7 @@
        height="29.999977"
        width="521"
        id="rect11112"
-       style="fill:#ececed;fill-opacity:1;stroke:#333333;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <text
        sodipodi:linespacing="125%"
        id="text11115"
@@ -42436,7 +42436,7 @@
     <rect
        ry="12"
        rx="12"
-       style="fill:#eeeeee;fill-opacity:1;stroke:#333333;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect11125"
        width="518.52551"
        height="29.999977"
@@ -42475,7 +42475,7 @@
     <rect
        ry="12"
        rx="12"
-       style="fill:#ececed;fill-opacity:1;stroke:#333333;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect11136"
        width="519.76276"
        height="29.999977"
