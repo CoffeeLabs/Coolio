@@ -91,25 +91,44 @@
    
         
 <!--------------- Grid of Employees --------------->
-        <article id="employees" class="employee-grid">
+        <article id="employees" class="employee_grid">
                                     
             <div class="three columns">
               <div class="three rows">
-                <a href="#employee-profile" data-router="section" onclick="javascript: changeProfileInfo(0,0);"><script type="text/javascript">
+                <a href="#employee_profile" data-router="section" onclick="javascript: changeProfileInfo(0,0);" id="emp00"><script type="text/javascript">
                 <!--
-                document.write("<img src='/CoffeeInc/assets/emp_" + employeepic[0][0] + ".png' >");
+                if(employeepic[0][0]!=0)
+                  document.write("<img src='/CoffeeInc/assets/emp_" + employeepic[0][0] + ".png' >");
+                else{
+                  document.write("<img src='/CoffeeInc/assets/add.svg' class='add_button' >");
+                  document.getElementById("emp00").href="#employee_hire";
+                  document.getElementById("emp00").onclick="";
+                }
                 //--></script></a>
               </div>
               <div class="three rows">
-                <a href="#employee-profile" data-router="section" onclick="javascript: changeProfileInfo(1,0);"><script type="text/javascript">
+                <a href="#employee_profile" data-router="section" onclick="javascript: changeProfileInfo(1,0);" id="emp10"><script type="text/javascript">
                 <!--
-                document.write("<img src='/CoffeeInc/assets/emp_" + employeepic[1][0] + ".png' >");
+                if(employeepic[1][0]!=0)
+                  document.write("<img src='/CoffeeInc/assets/emp_" + employeepic[1][0] + ".png' >");
+                else{
+                  document.write("<img src='/CoffeeInc/assets/add.svg' class='add_button' >");
+                  document.getElementById("emp10").href="#employee_hire";
+                  document.getElementById("emp10").onclick="";
+                }
                 //--></script></a>
               </div>
                             <div class="three rows">
-                <a href="#employee-profile" data-router="section" onclick="javascript: changeProfileInfo(2,0);"><script type="text/javascript">
+                <a href="#employee_profile" data-router="section" onclick="javascript: changeProfileInfo(2,0);" id="emp20"><script type="text/javascript">
                 <!--
-                document.write("<img src='/CoffeeInc/assets/emp_" + employeepic[2][0] + ".png' >");
+                if(employeepic[2][0]!=0)
+                  document.write("<img src='/CoffeeInc/assets/emp_" + employeepic[2][0] + ".png' >");
+                else{
+                  document.write("<img src='/CoffeeInc/assets/add.svg' class='add_button' >");
+                  document.getElementById("emp20").href="#employee_hire";
+                  document.getElementById("emp20").onclick="";
+                }
+
                 //--></script></a>
               </div>
             </div>
@@ -117,42 +136,82 @@
 
             <div class="three columns">
               <div class="three rows">
-                <a href="#employee-profile" data-router="section" onclick="javascript: changeProfileInfo(0,1);"><script type="text/javascript">
+                <a href="#employee_profile" data-router="section" onclick="javascript: changeProfileInfo(0,1);" id="emp01"><script type="text/javascript">
                 <!--
-                document.write("<img src='/CoffeeInc/assets/emp_" + employeepic[0][1] + ".png' >");
+                if(employeepic[0][1]!=0)
+                  document.write("<img src='/CoffeeInc/assets/emp_" + employeepic[0][1] + ".png' >");
+                else{
+                  document.write("<img src='/CoffeeInc/assets/add.svg' class='add_button' >");
+                  document.getElementById("emp01").href="#employee_hire";
+                  document.getElementById("emp01").onclick="";
+                }
                 //--></script></a>
               </div>
               <div class="three rows">
-                <a href="#employee-profile" data-router="section" onclick="javascript: changeProfileInfo(1,1);"><script type="text/javascript">
+                <a href="#employee_profile" data-router="section" onclick="javascript: changeProfileInfo(1,1);" id="emp11"><script type="text/javascript">
                 <!--
-                document.write("<img src='/CoffeeInc/assets/emp_" + employeepic[1][1] + ".png' >");
+                if(employeepic[1][1]!=0)
+                  document.write("<img src='/CoffeeInc/assets/emp_" + employeepic[1][1] + ".png' >");
+                else{
+                  document.write("<img src='/CoffeeInc/assets/add.svg' class='add_button' >");
+                  document.getElementById("emp11").href="#employee_hire";
+                  document.getElementById("emp11").onclick="";
+                }
                 //--></script></a>
               </div>
               <div class="three rows">
-                <a href="#employee-profile" data-router="section" onclick="javascript: changeProfileInfo(2,1);"><script type="text/javascript">
+                <a href="#employee_profile" data-router="section" onclick="javascript: changeProfileInfo(2,1);" id="emp21"><script type="text/javascript">
                 <!--
-                document.write("<img src='/CoffeeInc/assets/emp_" + employeepic[2][1] + ".png' >");
+                if(employeepic[2][1]!=0)
+                  document.write("<img src='/CoffeeInc/assets/emp_" + employeepic[2][1] + ".png' >");
+                else{
+                  document.write("<img src='/CoffeeInc/assets/add.svg' class='add_button' >");
+                  document.getElementById("emp21").href="#employee_hire";
+                  document.getElementById("emp21").onclick="";
+                }
+
                 //--></script></a>
               </div>
             </div>
             
             <div class="three columns">
               <div class="three rows">
-                <a href="#employee-profile" data-router="section" onclick="javascript: changeProfileInfo(0,2);"><script type="text/javascript">
+                <a href="#employee_profile" data-router="section" onclick="javascript: changeProfileInfo(0,2);" id="emp02"><script type="text/javascript">
                 <!--
-                document.write("<img src='/CoffeeInc/assets/emp_" + employeepic[0][2] + ".png' >");
+                if(employeepic[0][2]!=0)
+                  document.write("<img src='/CoffeeInc/assets/emp_" + employeepic[0][2] + ".png' >");
+                else{
+                  document.write("<img src='/CoffeeInc/assets/add.svg' class='add_button' >");
+                  document.getElementById("emp02").href="#employee_hire";
+                  document.getElementById("emp02").onclick="";
+                }
+
                 //--></script></a>
               </div>
               <div class="three rows">
-                <a href="#employee-profile" data-router="section" onclick="javascript: changeProfileInfo(1,2);"><script type="text/javascript">
+                <a href="#employee_profile" data-router="section" onclick="javascript: changeProfileInfo(1,2);" id="emp12"><script type="text/javascript">
                 <!--
-                document.write("<img src='/CoffeeInc/assets/emp_" + employeepic[1][2] + ".png' >");
+                if(employeepic[1][2]!=0)
+                  document.write("<img src='/CoffeeInc/assets/emp_" + employeepic[1][2] + ".png' >");
+                else{
+                  document.write("<img src='/CoffeeInc/assets/add.svg' class='add_button' >");
+                  document.getElementById("emp12").href="#employee_hire";
+                  document.getElementById("emp12").onclick="";
+                }
+
                 //--></script></a>
               </div>
               <div class="three rows">
-                <a href="#employee-profile" data-router="section" onclick="javascript: changeProfileInfo(2,2);"><script type="text/javascript">
+                <a href="#employee_profile" data-router="section" onclick="javascript: changeProfileInfo(2,2);" id="emp22"><script type="text/javascript">
                 <!--
-                document.write("<img src='/CoffeeInc/assets/emp_" + employeepic[2][2] + ".png' >");
+                if(employeepic[2][2]!=0)
+                  document.write("<img src='/CoffeeInc/assets/emp_" + employeepic[2][2] + ".png' >");
+                else{
+                  document.write("<img src='/CoffeeInc/assets/add.svg' class='add_button' >");
+                  document.getElementById("emp22").href="#employee_hire";
+                  document.getElementById("emp22").onclick="";
+                }
+
                 //--></script></a>
               </div>
             </div>
@@ -166,42 +225,42 @@
         
                 
 <!--------------- Grid of Investors --------------->
-        <article id="investors" class="employee-grid">
+        <article id="investors" class="employee_grid">
                                     
             <div class="three columns">
               <div class="three rows">
-                <a href="#employee-profile" data-router="section"><img src="assets/inv_1.png"></a>
+                <a href="#employee_profile" data-router="section"><img src="assets/inv_1.png"></a>
               </div>
             	<div class="three rows">
-                <a href="#employee-profile" data-router="section"><img src="assets/inv_1.png"></a>
+                <a href="#employee_profile" data-router="section"><img src="assets/inv_1.png"></a>
               </div>
               <div class="three rows">
-                <a href="#employee-profile" data-router="section"><img src="assets/inv_1.png"></a>
+                <a href="#employee_profile" data-router="section"><img src="assets/inv_1.png"></a>
               </div>
             </div>
           
 
             <div class="three columns">
               <div class="three rows">
-                <a href="#employee-profile" data-router="section"><img src="assets/inv_1.png"></a>
+                <a href="#employee_profile" data-router="section"><img src="assets/inv_1.png"></a>
               </div>
               <div class="three rows">
-                <a href="#employee-profile" data-router="section"><img src="assets/inv_1.png"></a>
+                <a href="#employee_profile" data-router="section"><img src="assets/inv_1.png"></a>
               </div>
               <div class="three rows">
-                <a href="#employee-profile" data-router="section"><img src="assets/inv_1.png"></a>
+                <a href="#employee_profile" data-router="section"><img src="assets/inv_1.png"></a>
               </div>
             </div>
             
             <div class="three columns">
               <div class="three rows">
-                <a href="#employee-profile" data-router="section"><img src="assets/inv_1.png"></a>
+                <a href="#employee_profile" data-router="section"><img src="assets/inv_1.png"></a>
               </div>
               <div class="three rows">
-                <a href="#employee-profile" data-router="section"><img src="assets/inv_1.png"></a>
+                <a href="#employee_profile" data-router="section"><img src="assets/inv_1.png"></a>
               </div>
               <div class="three rows">
-                <a href="#employee-profile" data-router="section"><img src="assets/inv_1.png"></a>
+                <a href="#employee_profile" data-router="section"><img src="assets/inv_1.png"></a>
               </div>
             </div>
 
@@ -215,7 +274,7 @@
 <!--------------- Menu with bottom bar --------------->        
         <article id="menu-ingame" class="list">      	
         	<form class="margined">
-        	  <img src="assets/game-logo.svg" class="gamelogo">  
+        	  <img src="assets/gamelogo.svg" class="gamelogo">  
         	  <div class="menu-elements">
               <!--      	  
               <a href="#employees" data-router="article" class="button">Resume</a>           
@@ -248,7 +307,7 @@
 
 <!--//////////// EMPLOYEE PROFILE ////////////-->    
     
-    <section id="employee-profile" data-transition="slide">
+    <section id="employee_profile" data-transition="slide">
 		<header data-title="John Doe">
 		    <nav class="left box">
 		        <a href="#back" data-router="section" data-icon="left"></a>
@@ -264,7 +323,7 @@
 		        
 		        <script type="text/javascript">document.write("<img src='/CoffeeInc/assets/emp_" + empPicId + ".png' id='emp_profile_pic' >");</script>	
 		        <!--
-		        ><img src="assets/ep2_big.svg" id="employee-pic">
+		        ><img src="assets/ep2_big.svg" id="employee_pic">
 		        -->		        
 		        		        
 		        <label>Skill:   <script type="text/javascript">document.write(empSkill);</script>	</label>
@@ -286,7 +345,7 @@
 
 <!--//////////// HIRE EMPLOYEES ////////////-->    
     
-    <section id="employee-hire" data-transition="slide">
+    <section id="employee_hire" data-transition="slide">
 		<header data-title="Hire New Employees">
 		    <nav class="left box">
 		        <a href="#back" data-router="section" data-icon="left"></a>
@@ -299,7 +358,7 @@
 		    <div class="four rows">
 		    	
 		    	<div class="five columns">
-		    		<img src="assets/ep2_big.svg" id="employee-hire-pic">
+		    		<img src="assets/ep2_big.svg" id="employee_hire-pic">
 		    		<div class="hireinfo">
 		    		  <a data-icon="user">34</a>
 		    		  <a data-icon="home">34</a>
@@ -307,14 +366,14 @@
 		    		</div>
 		    	</div>		    			    
 		    	<div class="five columns">
-		    		<img src="assets/ep2_big.svg" id="employee-hire-pic">
+		    		<img src="assets/ep2_big.svg" id="employee_hire-pic">
 		    	</div>
 		    	
 		    	<div class="five columns">
-		    		<img src="assets/ep2_big.svg" id="employee-hire-pic">
+		    		<img src="assets/ep2_big.svg" id="employee_hire-pic">
 		    	</div>		    			    
 		    	<div class="five columns">
-		    		<img src="assets/ep2_big.svg" id="employee-hire-pic">
+		    		<img src="assets/ep2_big.svg" id="employee_hire-pic">
 		    	</div>
 
 		    
