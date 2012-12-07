@@ -250,7 +250,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.70710678"
-     inkscape:cx="4336.0508"
+     inkscape:cx="4505.7564"
      inkscape:cy="-2836.7609"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -267,10 +267,10 @@
      inkscape:snap-object-midpoints="true"
      inkscape:snap-midpoints="true"
      inkscape:snap-center="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1029"
+     inkscape:window-width="1366"
+     inkscape:window-height="713"
      inkscape:window-x="0"
-     inkscape:window-y="26"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:snap-global="true"
      fit-margin-top="0"
@@ -41912,7 +41912,7 @@
        sodipodi:cy="5268.3975"
        sodipodi:rx="28.691542"
        sodipodi:ry="28.691542"
-       d="m 496.88307,5268.3975 a 28.691542,28.691542 0 1 1 -57.38308,0 28.691542,28.691542 0 1 1 57.38308,0 z"
+       d="m 496.88307,5268.3975 c 0,15.8459 -12.84564,28.6915 -28.69154,28.6915 -15.8459,0 -28.69154,-12.8456 -28.69154,-28.6915 0,-15.8459 12.84564,-28.6916 28.69154,-28.6916 15.8459,0 28.69154,12.8457 28.69154,28.6916 z"
        transform="translate(7561.8085,-1461.0353)" />
     <text
        xml:space="preserve"
@@ -41975,7 +41975,7 @@
          y="3197.3684"
          x="7012.2729"
          id="tspan9633"
-         sodipodi:role="line">Johnathan Longname</tspan></text>
+         sodipodi:role="line">Johnny Longname</tspan></text>
     <g
        style="fill:#4d3321;fill-opacity:1"
        id="g10790"
@@ -42464,7 +42464,7 @@
        style="fill:#4ad007;fill-opacity:1;stroke:#333333;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <path
        transform="translate(6551.8085,-1461.0353)"
-       d="m 496.88307,5268.3975 a 28.691542,28.691542 0 1 1 -57.38308,0 28.691542,28.691542 0 1 1 57.38308,0 z"
+       d="m 496.88307,5268.3975 c 0,15.8459 -12.84564,28.6915 -28.69154,28.6915 -15.8459,0 -28.69154,-12.8456 -28.69154,-28.6915 0,-15.8459 12.84564,-28.6916 28.69154,-28.6916 15.8459,0 28.69154,12.8457 28.69154,28.6916 z"
        sodipodi:ry="28.691542"
        sodipodi:rx="28.691542"
        sodipodi:cy="5268.3975"

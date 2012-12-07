@@ -25,18 +25,18 @@
 }
 .statusbar-item {
 	color: #999 !important;
-	margin-left: 4.5%;
+	margin-left: 4%;
 	float: left;
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: bold;
 	
 }
 .statusbar-item:first-child {
-	margin-left: 3%;
+	margin-left: 2%;
 }
 .statusbar-item:last-child {
 	float:right;
-	margin-right: 3%;
+	margin-right: 2%;
 }
 .employee-grid img {
 	width: 90%;
