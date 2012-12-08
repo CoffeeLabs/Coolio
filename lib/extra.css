@@ -101,6 +101,7 @@ label {
 	font-weight: bold;
 	margin-right: 10px;
 	font-size: 15px;
+	font-weight: 300;
 }
 .add_button {
 	width: 60% !important;
