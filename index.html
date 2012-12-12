@@ -97,8 +97,8 @@
               <div class="three rows">
                 <a href="#employee_profile" data-router="section" onclick="javascript: changeProfileInfo(0,0);" id="emp00"><script type="text/javascript">
                 <!--
-                if(employeepic[0][0]!=0)
-                  document.write("<img src='/CoffeeInc/assets/emp_d_" + employeepic[0][0] + ".svg' >");
+                if(employeepic[0][0][0]!=0)
+                  document.write("<img src='/CoffeeInc/assets/emp_d_" + employeepic[0][0][0] + ".svg' >");
                 else{
                   document.write("<img src='/CoffeeInc/assets/add.svg' class='add_button' >");
                   document.getElementById("emp00").href="#employee_hire";
@@ -109,8 +109,8 @@
               <div class="three rows">
                 <a href="#employee_profile" data-router="section" onclick="javascript: changeProfileInfo(1,0);" id="emp10"><script type="text/javascript">
                 <!--
-                if(employeepic[1][0]!=0)
-                  document.write("<img src='/CoffeeInc/assets/emp_d_" + employeepic[1][0] + ".svg' >");
+                if(employeepic[1][0][0]!=0)
+                  document.write("<img src='/CoffeeInc/assets/emp_d_" + employeepic[1][0][0] + ".svg' >");
                 else{
                   document.write("<img src='/CoffeeInc/assets/add.svg' class='add_button' >");
                   document.getElementById("emp10").href="#employee_hire";
@@ -121,8 +121,8 @@
                             <div class="three rows">
                 <a href="#employee_profile" data-router="section" onclick="javascript: changeProfileInfo(2,0);" id="emp20"><script type="text/javascript">
                 <!--
-                if(employeepic[2][0]!=0)
-                  document.write("<img src='/CoffeeInc/assets/emp_d_" + employeepic[2][0] + ".svg' >");
+                if(employeepic[2][0][0]!=0)
+                  document.write("<img src='/CoffeeInc/assets/emp_d_" + employeepic[2][0][0] + ".svg' >");
                 else{
                   document.write("<img src='/CoffeeInc/assets/add.svg' class='add_button' >");
                   document.getElementById("emp20").href="#employee_hire";
@@ -138,8 +138,8 @@
               <div class="three rows">
                 <a href="#employee_profile" data-router="section" onclick="javascript: changeProfileInfo(0,1);" id="emp01"><script type="text/javascript">
                 <!--
-                if(employeepic[0][1]!=0)
-                  document.write("<img src='/CoffeeInc/assets/emp_d_" + employeepic[0][1] + ".svg' >");
+                if(employeepic[0][1][0]!=0)
+                  document.write("<img src='/CoffeeInc/assets/emp_d_" + employeepic[0][1][0] + ".svg' >");
                 else{
                   document.write("<img src='/CoffeeInc/assets/add.svg' class='add_button' >");
                   document.getElementById("emp01").href="#employee_hire";
@@ -150,26 +150,29 @@
               <div class="three rows">
                 <a href="#employee_profile" data-router="section" onclick="javascript: changeProfileInfo(1,1);" id="emp11"><script type="text/javascript">
                 <!--
-                if(employeepic[1][1]!=0)
-                  document.write("<img src='/CoffeeInc/assets/emp_d_" + employeepic[1][1] + ".svg' >");
-                else{
-                  document.write("<img src='/CoffeeInc/assets/add.svg' class='add_button' >");
-                  document.getElementById("emp11").href="#employee_hire";
-                  document.getElementById("emp11").onclick="";
+                if(employeepic[1][1][0]>=0){
+                  if(employeepic[1][1][0]!=0)
+                    document.write("<img src='/CoffeeInc/assets/emp_d_" + employeepic[1][1][0] + ".svg' >");
+                  else{
+                    document.write("<img src='/CoffeeInc/assets/add.svg' class='add_button' >");
+                    document.getElementById("emp11").href="#employee_hire";
+                    document.getElementById("emp11").onclick="";
+                  }
                 }
                 //--></script></a>
               </div>
               <div class="three rows">
                 <a href="#employee_profile" data-router="section" onclick="javascript: changeProfileInfo(2,1);" id="emp21"><script type="text/javascript">
                 <!--
-                if(employeepic[2][1]!=0)
-                  document.write("<img src='/CoffeeInc/assets/emp_d_" + employeepic[2][1] + ".svg' >");
-                else{
-                  document.write("<img src='/CoffeeInc/assets/add.svg' class='add_button' >");
-                  document.getElementById("emp21").href="#employee_hire";
-                  document.getElementById("emp21").onclick="";
+                if(employeepic[2][1][0]>=0){
+                  if(employeepic[2][1][0]!=0)
+                    document.write("<img src='/CoffeeInc/assets/emp_d_" + employeepic[2][1][0] + ".svg' >");
+                  else{
+                    document.write("<img src='/CoffeeInc/assets/add.svg' class='add_button' >");
+                    document.getElementById("emp21").href="#employee_hire";
+                    document.getElementById("emp21").onclick="";
+                  }
                 }
-
                 //--></script></a>
               </div>
             </div>
@@ -178,40 +181,43 @@
               <div class="three rows">
                 <a href="#employee_profile" data-router="section" onclick="javascript: changeProfileInfo(0,2);" id="emp02"><script type="text/javascript">
                 <!--
-                if(employeepic[0][2]!=0)
-                  document.write("<img src='/CoffeeInc/assets/emp_d_" + employeepic[0][2] + ".svg' >");
-                else{
-                  document.write("<img src='/CoffeeInc/assets/add.svg' class='add_button' >");
-                  document.getElementById("emp02").href="#employee_hire";
-                  document.getElementById("emp02").onclick="";
+                if(employeepic[0][2][0]>=0){
+                  if(employeepic[0][2][0]!=0)
+                    document.write("<img src='/CoffeeInc/assets/emp_d_" + employeepic[0][2][0] + ".svg' >");
+                  else{
+                    document.write("<img src='/CoffeeInc/assets/add.svg' class='add_button' >");
+                    document.getElementById("emp02").href="#employee_hire";
+                    document.getElementById("emp02").onclick="";
+                  }
                 }
-
                 //--></script></a>
               </div>
               <div class="three rows">
                 <a href="#employee_profile" data-router="section" onclick="javascript: changeProfileInfo(1,2);" id="emp12"><script type="text/javascript">
                 <!--
-                if(employeepic[1][2]!=0)
-                  document.write("<img src='/CoffeeInc/assets/emp_d_" + employeepic[1][2] + ".svg' >");
-                else{
-                  document.write("<img src='/CoffeeInc/assets/add.svg' class='add_button' >");
-                  document.getElementById("emp12").href="#employee_hire";
-                  document.getElementById("emp12").onclick="";
+                if(employeepic[1][2][0]>=0){
+                  if(employeepic[1][2][0]!=0)
+                    document.write("<img src='/CoffeeInc/assets/emp_d_" + employeepic[1][2][0] + ".svg' >");
+                  else{
+                    document.write("<img src='/CoffeeInc/assets/add.svg' class='add_button' >");
+                    document.getElementById("emp12").href="#employee_hire";
+                    document.getElementById("emp12").onclick="";
+                  }
                 }
-
                 //--></script></a>
               </div>
               <div class="three rows">
                 <a href="#employee_profile" data-router="section" onclick="javascript: changeProfileInfo(2,2);" id="emp22"><script type="text/javascript">
                 <!--
-                if(employeepic[2][2]!=0)
-                  document.write("<img src='/CoffeeInc/assets/emp_d_" + employeepic[2][2] + ".svg' >");
-                else{
-                  document.write("<img src='/CoffeeInc/assets/add.svg' class='add_button' >");
-                  document.getElementById("emp22").href="#employee_hire";
-                  document.getElementById("emp22").onclick="";
+                if(employeepic[2][2][0]>=0){
+                  if(employeepic[2][2][0]!=0)
+                    document.write("<img src='/CoffeeInc/assets/emp_d_" + employeepic[2][2][0] + ".svg' >");
+                  else{
+                    document.write("<img src='/CoffeeInc/assets/add.svg' class='add_button' >");
+                    document.getElementById("emp22").href="#employee_hire";
+                    document.getElementById("emp22").onclick="";
+                  }
                 }
-
                 //--></script></a>
               </div>
             </div>
@@ -326,15 +332,19 @@
 		        ><img src="assets/ep2_big.svg" id="employee_pic">
 		        -->		        
 		        		        
-		        <label>Skill:   <script type="text/javascript">document.write(empSkill);</script>	</label>
-		        <script type="text/javascript">document.write('<div id="progress-normal" data-progress="'+empSkill+'%"></div>');</script>
-		        
-		        <label>Satisfaction:   <script type="text/javascript">document.write(empSat);</script></label>
-		        <script type="text/javascript">document.write('<div id="progress-normal" data-progress="'+empSat+'%"></div>');</script>
-
-		        <label>Salary:   <script type="text/javascript">document.write(empSalary);</script></label>
-		        <input type="range" data-progress="10%" placeholder="type your name" />
-
+		        <label id="empProfileSkill">Skill:   <script type="text/javascript">document.write(empSkill);</script>	</label>
+		        <div id="empProfileSkillBar">
+		        </div>
+		        <!--<script type="text/javascript">document.write('<div id="progress-normal" data-progress="'+empSkill+'%"></div>');</script>
+		        -->
+		        <label id="empProfileSat">Satisfaction:   <script type="text/javascript">document.write(empSat);</script></label>
+		        <div id="empProfileSatBar">
+		        </div>
+		        <!--<script type="text/javascript">document.write('<div id="progress-normal" data-progress="'+empSat+'%"></div>');</script>
+-->
+		        <label id="empProfileSalary">Salary:   <script type="text/javascript">document.write(empSalary);</script></label>
+		        <!--<input type="range" data-progress="10%" placeholder="type your name" />
+-->
 		    </form>
 
 		</article>
